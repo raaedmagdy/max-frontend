@@ -596,7 +596,7 @@ img {
   position: relative;
   min-height: 100vh;
   background-size: cover;
-  background-image: url(/images/bd1.jpg);
+  background-image: url(../images/bd1.jpg);
 }
 .landing h2 {
   text-transform: uppercase;
@@ -781,7 +781,7 @@ img {
 /* quote */
 .quote {
   width: 100%;
-  background-image: url(/images/team1.jpg);
+  background-image: url(../images/team1.jpg);
   padding: 150px;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -832,7 +832,7 @@ img {
 /* End portfolio */
 /* numbers */
 .numbers {
-  background-image: url(/images/team2.jpg);
+  background-image: url(../images/team2.jpg);
   background-attachment: fixed;
   padding: 100px 0;
   background-position: center;
@@ -865,7 +865,7 @@ img {
 /* End services */
 /* serv tab */
 .serv-tab {
-  background-image: url(/images/team2.jpg);
+  background-image: url(../images/team2.jpg);
   background-attachment: fixed;
   padding: 100px 0;
   background-position: center;
@@ -942,7 +942,7 @@ img {
 /* bg-image */
 .bg-image {
   width: 100%;
-  background-image: url(/images/team2.jpg);
+  background-image: url(../images/team2.jpg);
   padding: 100px 0;
   opacity: 0.9;
   background-repeat: no-repeat;
@@ -988,7 +988,7 @@ textarea {
 }
 /* information */
 .information {
-  background-image: url(/images/team3.jpg);
+  background-image: url(../images/team3.jpg);
 }
 .information .info .icon {
   color: #fff;
