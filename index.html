@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Max landing page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,6 +20,47 @@
     <!-- header -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
+        <img class="logo" src="images/logo-light.png" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
         <a class="logo" href="#">
           <img src="images/logo-light.png" alt="" />
         </a>
@@ -74,9 +115,17 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- End header -->
     <!-- landing -->
+    <div class="landing">
+      <div class="landing-title"><h3>We Are Creative</h3></div>
+      <h1>THE WAY OF <span class="auto-type"></span></h1>
+      <p>
+        A single place to share, curate and discover visual that tells a story.
+      </p>
+    </div>
+    <!-- <img src="images/bd1.jpg" alt="" class="bg-img">
     <div class="landing">
       <div class="text-center text-light">
         <div class="landing-content">
@@ -99,10 +148,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End landing -->
     <!-- about -->
-    <div class="about section-padding p-relative d-flex" id="about">
+    <div class="about section-padding d-flex" id="about">
       <div class="container">
         <div class="row">
           <div class="about-content col-lg-8 text-center">
@@ -817,15 +866,34 @@
             In Touch
           </h4>
           <div class="mt-5">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
           </div>
           <div class="mt-5">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Email"
+            />
           </div>
           <div class="mt-5">
-            <input type="subject" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+            <input
+              type="subject"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Subject"
+            />
           </div>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="5"
+          ></textarea>
           <div class="btn1">
             <a href="#0">
               <span>Sent Message</span>
@@ -837,7 +905,7 @@
     <!-- End contact -->
     <!-- information -->
     <section
-      class="information bg-img"
+      class="information"
       data-overlay-dark="9"
       data-background="img/3.jpg"
     >
@@ -851,7 +919,9 @@
                 </span>
                 <div class="cont">
                   <h6>Phone :</h6>
-                  <p class="text-light">+20 010 2517 8918<br />+20 010 2517 8919</p>
+                  <p class="text-light">
+                    +20 010 2517 8918<br />+20 010 2517 8919
+                  </p>
                 </div>
               </div>
             </div>
@@ -880,7 +950,9 @@
                 </span>
                 <div class="cont">
                   <h6>Email :</h6>
-                  <p class="text-light">contact@youradress.com<br />support@youradress.com</p>
+                  <p class="text-light">
+                    contact@youradress.com<br />support@youradress.com
+                  </p>
                 </div>
               </div>
             </div>
@@ -910,8 +982,9 @@
       </div>
     </footer>
     <!-- End footer -->
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
   </body>
 </html>
