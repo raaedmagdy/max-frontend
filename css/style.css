@@ -1,4 +1,14 @@
-/* Basics */
+/* 
+1- website roles
+2- general roles
+3- header section
+4- about section
+5- portfolio section
+6- services section
+7- contact section  
+*/
+
+/*website roles*/
 :root {
   --red: #f24259;
   --main: #fff;
@@ -20,6 +30,7 @@ body {
   font-weight: 400;
 }
 
+/* general roles */
 h1,
 h2,
 h3,
@@ -577,7 +588,10 @@ img {
   width: 100%;
   height: auto;
 }
-.navbar .navbar-nav .nav-link {
+.navbar-scrolled .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-nav a {
   color: #fff;
 }
 .navbar .navbar-nav .nav-link.active,
@@ -598,15 +612,15 @@ img {
 
 .landing {
   background-image: url(../images/bd1.jpg);
-  filter: brightness(0.5);
   background-size: cover;
   min-width: 100%;
+  filter: brightness(0.6);
   min-height: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .landing .landing-title {
   color: #fff;
@@ -622,83 +636,8 @@ img {
   font-size: 80px;
 }
 .landing p {
+  margin-bottom: 25px;
   color: #fff;
-}
-/* .bg-img {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  z-index: -1;
-}
-.landing h2 {
-  text-transform: uppercase;
-  font-size: 70px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.landing h3 {
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: 300;
-}
-.landing-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.landing-content > h2 span {
-  color: var(--red);
-  font-weight: 700;
-}
-.landing-content p {
-  color: #fff;
-  font-size: 17px;
-  margin-bottom: 30px;
-}
-.animated {
-  display: inline;
-  text-indent: 8px;
-}
-
-.animated span {
-  animation: topToBottom 5s infinite 0s;
-  -ms-animation: topToBottom 5s infinite 0s;
-  -webkit-animation: topToBottom 5s infinite 0s;
-  color: red;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-}
-
-.animated span:nth-child(2) {
-  animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-}
-
-.animated span:nth-child(3) {
-  animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-}
-
-@keyframes topToBottom {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 .btn {
   position: relative;
@@ -723,9 +662,12 @@ img {
 .btn-2 {
   background-color: var(--red);
   border-color: var(--red);
-} */
+}
 /* End landing */
 /* about */
+.about {
+  margin: 50px 0;
+}
 .about-content h3 {
   margin-left: 400px;
   font-weight: 300;
